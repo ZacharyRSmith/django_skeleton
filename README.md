@@ -12,7 +12,7 @@ SET UP:
 Rename two skeleton dirs to your project's name
 Rename all occurences of "skeleton" in your files to your project's name
 Set up database
-Set up database superuser
+Set up database superuser (python manage.py createsuperuser)
 
 RECOMMENDED CHANGES:
 Add title base to base.html
