@@ -14,7 +14,7 @@ urlpatterns = patterns('',
 
     url(r'^about/$', 'skeleton.views.about', name='about'),
 
-    url(r'^accounts/profile/$', 'skeleton.views.home', name='home'),
+    url(r'^accounts/profile/$', 'skeleton.views.user_profile', name='user_profile'),
     url(r'^accounts/register/$', MyRegistrationView.as_view(), name='registration_register'),
     (r'^accounts/', include('registration.backends.simple.urls')),
 
