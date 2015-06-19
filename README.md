@@ -1,5 +1,9 @@
 # django_skeleton
-A skeleton Django project for future Django projects
+A skeleton Django project for future Django projects. This has set up:
+
+Django-Registration-Redux for auth
+Some bootstrap
+A home, about, and index page
 
 This has three sanity tests that will probably break after website content is
 changed.
